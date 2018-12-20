@@ -2,3 +2,5 @@ env/
 __pycache__/
 .vscode
 config.json
+scripts/*.sh
+!scripts/example.sh
