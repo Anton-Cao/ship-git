@@ -1,0 +1,5 @@
+{
+    "ENV": "development",
+    "PORT": 4000,
+    "DEBUG": true
+}
