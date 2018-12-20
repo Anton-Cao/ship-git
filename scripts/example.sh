@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "hello world"
+cd /home/user/project
+git pull
