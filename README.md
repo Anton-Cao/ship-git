@@ -7,8 +7,9 @@ In `scripts/`, whenever you push to `GITHUB_REPO`, the bash script `GITHUB_REPO.
 ## Deploying
 1. Clone repository onto the server hosting your websites
 1. Create and activate python3 virtual environment
+1. `pip install -r requirements.txt`
 1. `cp sample-config.json config.json`
 1. Edit config file as needed
-1. Run the app
+1. Run the app using gunicorn
 1. Make sure the app is available through some URL
 1. Add the URL to the list of GitHub webhooks in your repository
